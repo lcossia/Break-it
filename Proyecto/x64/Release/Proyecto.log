@@ -1,0 +1,22 @@
+﻿  main.cpp
+C:\Users\Luciano\Documents\UTN\Programacion\Proyecto\Proyecto\main.cpp(11,22): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Luciano\Documents\UTN\Programacion\Proyecto\Proyecto\main.cpp(16,25): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Luciano\Documents\UTN\Programacion\Proyecto\Proyecto\main.cpp(16,18): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+sfml-audio-s.lib(SoundFileReaderFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_decoder_new
+sfml-audio-s.lib(SoundFileReaderFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_decoder_delete
+sfml-audio-s.lib(SoundFileReaderFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_decoder_get_state
+sfml-audio-s.lib(SoundFileReaderFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_decoder_init_stream
+sfml-audio-s.lib(SoundFileReaderFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_decoder_finish
+sfml-audio-s.lib(SoundFileReaderFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_decoder_process_single
+sfml-audio-s.lib(SoundFileReaderFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_decoder_process_until_end_of_metadata
+sfml-audio-s.lib(SoundFileReaderFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_decoder_skip_single_frame
+sfml-audio-s.lib(SoundFileReaderFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_decoder_seek_absolute
+sfml-audio-s.lib(SoundFileWriterFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_encoder_new
+sfml-audio-s.lib(SoundFileWriterFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_encoder_delete
+sfml-audio-s.lib(SoundFileWriterFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_encoder_set_channels
+sfml-audio-s.lib(SoundFileWriterFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_encoder_set_bits_per_sample
+sfml-audio-s.lib(SoundFileWriterFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_encoder_set_sample_rate
+sfml-audio-s.lib(SoundFileWriterFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_encoder_init_file
+sfml-audio-s.lib(SoundFileWriterFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_encoder_finish
+sfml-audio-s.lib(SoundFileWriterFlac.cpp.obj) : error LNK2001: unresolved external symbol FLAC__stream_encoder_process_interleaved
+C:\Users\Luciano\Documents\UTN\Programacion\Proyecto\x64\Release\Proyecto.exe : fatal error LNK1120: 17 unresolved externals
